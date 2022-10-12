@@ -1,3 +1,8 @@
+:root{
+    --color-primary:black;
+    --color-secondary:#141922;
+    --color-third:#282828;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,10 +22,15 @@ body{
 
 }
 .sidebar{
-    flex-basis: 80px;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(89, 89, 89);
+    background-color: var(--color-primary);
+}
+.sidebar a{
+    text-decoration: none;
+    color: lightgray;
+    display: inline-block;
 }
 .main-container{
     flex-grow: 1;
@@ -28,13 +38,31 @@ body{
 
 .sidebar .middle-section{
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+.main-container .top-bar{
+    background-color: var(--color-primary);
+}
+.main-container .main{
+    background-color: var(--color-secondary);
+    overflow: auto;
+}
+.top-main{
+    position: sticky;
+}
+.top-main a{
+    text-decoration: none;
+    color: lightgray;
 }
 
 
 
-
-
+.bottom-navbar{
+    flex-shrink: 0;
+    background-color: var(--color-third);
+}
 
 
 
@@ -45,10 +73,20 @@ body{
 .jc-space-b{
     justify-content: space-between;
 }
+.jc-center{
+    justify-content: center;
+}
 
 .img-reboot{
     width: 100%;
     display: block;
+}
+.jc-end{
+    justify-content: flex-end;
+}
+
+.txt-white{
+    color: white;
 }
 
 
