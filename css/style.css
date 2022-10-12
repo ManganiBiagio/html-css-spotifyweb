@@ -18,10 +18,22 @@ body{
 }
 .sidebar{
     flex-basis: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(89, 89, 89);
 }
 .main-container{
     flex-grow: 1;
 }
+
+.sidebar .middle-section{
+    flex-grow: 1;
+
+}
+
+
+
+
 
 
 
@@ -29,4 +41,26 @@ body{
 /* -------UTILITY-------- */
 .row{
     display: flex;
+}
+.jc-space-b{
+    justify-content: space-between;
+}
+
+.img-reboot{
+    width: 100%;
+    display: block;
+}
+
+
+
+/* ------------MEDIA QUERY----------- */
+
+@media screen and (min-width:568px) {
+    
+}
+@media screen and (min-width:768px) {
+    
+}
+@media screen and (min-width:992px) {
+    
 }
