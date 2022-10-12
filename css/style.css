@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container{
+    flex-grow: 1;
+    display: flex;
+    
+
+}
+.sidebar{
+    flex-basis: 80px;
+}
+.main-container{
+    flex-grow: 1;
+}
+
+
+
+
+/* -------UTILITY-------- */
+.row{
+    display: flex;
+}
