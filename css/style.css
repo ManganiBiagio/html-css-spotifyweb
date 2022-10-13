@@ -87,6 +87,9 @@ body{
     height: 30px;
     display: block;
 }
+.img-player{
+    height: 2rem;
+}
 
 
 /* -------UTILITY-------- */
@@ -135,6 +138,9 @@ body{
 .txt-center{
     text-align: center;
 }
+.ai-center{
+    align-items: center;
+}
 
 
 
@@ -160,7 +166,9 @@ body{
     .col-sm-1-3{
         width: calc(100% / 3);
     }
-    
+    .row-sm{
+        display: flex;
+    }
     
 }
 /* md  */
@@ -173,6 +181,9 @@ body{
     }
     .col-md-1-5{
         width: calc(100% / 5);
+    }
+    .row-md{
+        display: flex;
     }
 
     
