@@ -1,6 +1,6 @@
 :root{
     --color-primary:black;
-    --color-secondary:#141922;
+    --color-secondary:rgb(20, 25, 34);
     --color-third:#282828;
 }
 *{
@@ -57,6 +57,7 @@ body{
 .top-main{
     position: sticky;
     top: 0;
+    background-color:rgba(20, 25, 34, .7);
 }
 .top-main a{
     text-decoration: none;
@@ -120,6 +121,14 @@ body{
     font-weight: bold;
     font-size: 2rem;
     background-color: lightgray;
+}
+.btn{
+    border: 1px solid white;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    
 }
 
 
@@ -185,6 +194,9 @@ body{
 .ft-size-1-5{
     font-size: 1.5rem;
 }
+.ft-size-0-8{
+    font-size: .8rem;
+}
 
 .pd-1{
     padding: 1rem;
@@ -192,11 +204,20 @@ body{
 .pd-0-5{
     padding: .5rem;
 }
+.pd-0-2{
+    padding: .2rem;
+}
 .pd-b-0-5{
     padding-bottom: .5rem;
 }
 .pd-b-1{
     padding-bottom: 1rem;
+}
+.pd-b-2{
+    padding-bottom: 2rem;
+}
+.mg-b-1-5{
+    margin-bottom: 1.5rem;
 }
 .mg-b-0-5{
     margin-bottom: .5rem;
@@ -207,7 +228,14 @@ body{
 .pd-r-1{
     padding-right: 1rem;
 }
-
+.pd-t-b-1{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.pd-t-b-0-5{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
 /* ------------MEDIA QUERY----------- */
 /* sm  */
 @media screen and (min-width:568px) {
@@ -267,8 +295,8 @@ body{
     .col-l-1-6{
         width: calc(100% / 6);
     }
-    .col-l-70{
-        width:70%;
+    .col-l-90{
+        width:90%;
     }
     .mg-l-auto{
         margin: auto;
