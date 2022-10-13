@@ -8,6 +8,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 12px;
+}
 a{
     display: inline-block;
 }
@@ -138,6 +141,9 @@ body{
 /* ------------MEDIA QUERY----------- */
 /* sm  */
 @media screen and (min-width:568px) {
+    html{
+        font-size: 14px;
+    }
     .logo-large-box{
         display: inline-block;
     }
@@ -159,6 +165,9 @@ body{
 }
 /* md  */
 @media screen and (min-width:768px) {
+    html{
+        font-size: 16px;
+    }
     .col-md-1-4{
         width: calc(100% / 4);
     }
@@ -171,6 +180,9 @@ body{
 }
 /* l  */
 @media screen and (min-width:992px) {
+    html{
+        font-size: 18px;
+    }
     .col-l-1-6{
         width: calc(100% / 6);
     }
