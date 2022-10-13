@@ -49,7 +49,7 @@ body{
 }
 .main-container .main{
     background-color: var(--color-secondary);
-    overflow: auto;
+    
 }
 .top-main{
     position: sticky;
