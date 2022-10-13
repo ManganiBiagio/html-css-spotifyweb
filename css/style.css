@@ -63,6 +63,20 @@ body{
     color: lightgray;
 }
 
+.progressive-bar{
+    height: 5px;
+    width: 50%;
+    background-color:gray;
+}
+.overlay-bar{
+    height: 5px;
+    width: 30%;
+    background-color: lightgray;
+}
+.right-box .progressive-bar{
+    width: 3rem;
+}
+
 
 
 .bottom-navbar{
@@ -90,6 +104,10 @@ body{
 .img-player{
     height: 2rem;
 }
+.center-box{
+    flex-grow: 1;
+}
+
 
 
 /* -------UTILITY-------- */
@@ -103,6 +121,7 @@ body{
 .jc-center{
     justify-content: center;
 }
+
 
 .img-reboot{
     width: 100%;
