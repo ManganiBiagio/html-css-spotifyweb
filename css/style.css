@@ -94,11 +94,11 @@ body{
     
 }
 .logo-large{
-    height: 50px;
+    height: 40px;
     display: block;
 }
 .logo-small{
-    height: 30px;
+    height: 22px;
     display: block;
 }
 .img-player{
@@ -106,6 +106,20 @@ body{
 }
 .center-box{
     flex-grow: 1;
+}
+.estetic-bar{
+    width: 90%;
+    background-color: lightgray;
+    height: 1px;
+    display: none;
+
+}
+.playlist-button{
+    border: unset;
+    padding: 0 .5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: lightgray;
 }
 
 
@@ -131,11 +145,12 @@ body{
     justify-content: flex-end;
 }
 
-.txt-white{
-    color: white;
-}
+
 .txt-l-gray{
     color: lightgray;
+}
+.txt-white{
+    color: white;
 }
 
 .col-xs-1-2{
@@ -157,11 +172,41 @@ body{
 .txt-center{
     text-align: center;
 }
+.txt-left{
+    text-align: left;
+}
 .ai-center{
     align-items: center;
 }
 
+.ft-size-2{
+    font-size: 2rem;
+}
+.ft-size-1-5{
+    font-size: 1.5rem;
+}
 
+.pd-1{
+    padding: 1rem;
+}
+.pd-0-5{
+    padding: .5rem;
+}
+.pd-b-0-5{
+    padding-bottom: .5rem;
+}
+.pd-b-1{
+    padding-bottom: 1rem;
+}
+.mg-b-0-5{
+    margin-bottom: .5rem;
+}
+.pd-l-0-5{
+    padding-left: .5rem;
+}
+.pd-r-1{
+    padding-right: 1rem;
+}
 
 /* ------------MEDIA QUERY----------- */
 /* sm  */
@@ -187,6 +232,12 @@ body{
     }
     .row-sm{
         display: flex;
+    }
+    .dp-sm-block{
+        display:block;
+    }
+    .pd-sm-b-0-5{
+        padding-bottom: .5rem;
     }
     
 }
