@@ -197,6 +197,15 @@ body{
 .ft-size-0-8{
     font-size: .8rem;
 }
+.ft-size-1-2{
+    font-size: 1.2rem;
+}
+.ft-size-title-card{
+    font-size: calc(15px + .4vw);
+}
+.ft-bold{
+    font-weight: bold;
+}
 
 .pd-1{
     padding: 1rem;
