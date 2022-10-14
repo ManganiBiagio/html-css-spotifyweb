@@ -287,6 +287,15 @@ body{
     padding-bottom: .5rem;
     padding-top: .5rem;
 }
+
+
+.txt-white-over:hover {
+    color: white;
+}
+
+.scale-over:hover{
+    transform: scale(1.1);
+}
 /* ------------MEDIA QUERY----------- */
 /* sm  */
 @media screen and (min-width:568px) {
