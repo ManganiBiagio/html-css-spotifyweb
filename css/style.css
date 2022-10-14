@@ -81,6 +81,25 @@ body{
     width: 3rem;
 }
 
+.progressive-bar:hover .overlay-bar {
+    background-color: green;
+}
+.overlay-bar::before{
+    content:"";
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    opacity: 0;
+
+}
+.progressive-bar:hover .overlay-bar::before {
+    opacity: 1;
+    
+   
+}
+
 
 
 .bottom-navbar{
@@ -174,6 +193,9 @@ body{
 
 .jc-center{
     justify-content: center;
+}
+.jc-end{
+    justify-content: end;
 }
 
 
