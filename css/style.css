@@ -88,8 +88,8 @@ body{
 }
 .overlay-bar::before{
     content:"";
-    height: 5px;
-    width: 5px;
+    height: 8px;
+    width: 8px;
     border-radius: 50%;
     background-color: white;
     display: inline-block;
