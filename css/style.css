@@ -98,8 +98,6 @@ body{
 }
 .progressive-bar:hover .overlay-bar::before {
     opacity: 1;
-    
-   
 }
 
 
@@ -182,6 +180,17 @@ body{
 .card:hover .img-overlay{
     opacity: 1;
 }
+.section-title-effect{
+    height: 1px;
+    width: 0;
+    background-color: yellow;
+    transition: width .3s;
+    margin-top: .1rem;
+    
+}
+.section-focus:focus .section-title-effect{
+    width: 100%;
+}
 
 
 
@@ -232,6 +241,9 @@ body{
 }
 .flex-wrap{
     flex-wrap: wrap;
+}
+.inline-flex{
+    display: inline-flex;
 }
 .txt-center{
     text-align: center;
