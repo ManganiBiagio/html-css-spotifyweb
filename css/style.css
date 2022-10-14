@@ -33,6 +33,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: var(--color-primary);
+    overflow: auto;
 }
 .sidebar a{
     text-decoration: none;
@@ -46,6 +47,7 @@ body{
 
 .sidebar .middle-section{
     flex-grow: 1;
+    
 }
 .main-container .top-bar{
     background-color: var(--color-primary);
