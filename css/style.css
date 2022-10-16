@@ -11,6 +11,9 @@
 html{
     font-size: 12px;
 }
+#sec-podcast{
+    display: none;
+}
 a{
     display: inline-block;
 }
