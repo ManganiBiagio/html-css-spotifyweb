@@ -14,6 +14,9 @@ html{
 #sec-podcast{
     display: none;
 }
+#sec-classifiche{
+    display: none;
+}
 a{
     display: inline-block;
 }
